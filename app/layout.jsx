@@ -1,5 +1,13 @@
 import "./globals.css";
-export const metadata = { title: "Birthday Surprise 🎂" };
+import StarryBackground from "../components/StarryBackground";
+
 export default function RootLayout({ children }) {
-  return (<html><body>{children}</body></html>);
+  return (
+    <html lang="en">
+      <body>
+        <StarryBackground />
+        {children}
+      </body>
+    </html>
+  );
 }
