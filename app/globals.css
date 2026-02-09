@@ -1,1 +1,7 @@
-body{margin:0;background:linear-gradient(135deg,#ff9a9e,#fad0c4);font-family:sans-serif;}
+body {
+  margin: 0;
+  background: transparent; /* important */
+  font-family: "Poppins", sans-serif;
+  color: white;
+  overflow-x: hidden;
+}
